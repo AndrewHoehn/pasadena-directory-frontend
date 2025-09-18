@@ -60,11 +60,11 @@ export const getBusinessResources = async (filters = {}) => {
       eligibility: resource.eligibility,
       next_steps: extractTextFromRichText(resource.next_steps),
       next_steps_links: extractLinksFromRichText(resource.next_steps),
-      image: resource.image ? {
-        url: `http://localhost:1337${resource.image.url}`,
+        image: resource.image ? {
+        url: `${API_BASE_URL.replace('/api', '')}${resource.image.url}`,
         alt: resource.image.alternativeText || resource.title,
         caption: resource.image.caption
-      } : null,
+    } : null,
       createdAt: resource.createdAt,
       updatedAt: resource.updatedAt
     }));
