@@ -101,7 +101,7 @@ const BusinessDirectory = () => {
   return (
     <div className="business-directory">
       <header className="directory-header">
-        <h1>Build It in Pasadena</h1>
+        <h1>Build It in <span class="highlight">Pasadena</span></h1>
         <p className="directory-subtitle">
           Discover incentives, programs, and resources to help your business thrive in Pasadena.
         </p>

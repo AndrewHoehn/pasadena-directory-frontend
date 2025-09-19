@@ -32,7 +32,7 @@ const FilterBar = ({ filters, onFilterChange }) => {
   return (
     <div className="filter-bar">
       <div className="filter-intro">
-        <h2>Find Resources for Your Business</h2>
+        <h2>Find Resources for <span class="highlight">Your Business</span></h2>
         <p>I'm a <strong>business</strong> interested in help with <strong>programs and incentives</strong>.</p>
       </div>
       

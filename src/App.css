@@ -5,18 +5,27 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: "Raleway", BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   line-height: 1.6;
-  color: #333;
+  color: black;
   background-color: #f8f9fa;
+}
+
+h1, h2 {
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
 }
 
 .App {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
+}
+
+.highlight{
+  color:#99002D;
 }
 
 /* Directory Header */
@@ -27,13 +36,13 @@ body {
 
 .directory-header h1 {
   font-size: 2.5rem;
-  color: #2c3e50;
+  color: black;
   margin-bottom: 10px;
 }
 
 .directory-subtitle {
   font-size: 1.2rem;
-  color: #6c757d;
+  color: black;
   max-width: 600px;
   margin: 0 auto;
 }
@@ -54,13 +63,13 @@ body {
 
 .filter-intro h2 {
   font-size: 1.5rem;
-  color: #2c3e50;
+  color: #black;
   margin-bottom: 10px;
 }
 
 .filter-intro p {
   font-size: 1.1rem;
-  color: #6c757d;
+  color: #black;
 }
 
 .filters {
@@ -78,7 +87,7 @@ body {
 .filter-group label {
   font-weight: 600;
   margin-bottom: 8px;
-  color: #2c3e50;
+  color: black;
 }
 
 .filter-group select {
@@ -292,12 +301,12 @@ body {
 
 .action-link {
   display: inline-block;
-  background-color: #007bff;
-  color: white;
+  background-color: #ffc107;
+  color: #212529;
   padding: 8px 16px;
   text-decoration: none;
   border-radius: 6px;
-  font-weight: 500;
+  font-weight: bolder;
   margin-right: 10px;
   margin-top: 5px;
   transition: background-color 0.3s ease;
