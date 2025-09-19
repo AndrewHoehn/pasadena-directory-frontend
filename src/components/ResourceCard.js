@@ -28,8 +28,8 @@ const ResourceCard = ({ resource }) => {
             <strong>Eligibility:</strong> {resource.eligibility}
           </div>
         )}
-      </div>
-
+      </div>      
+{/*
       <div className="card-tags">
         <div className="tag-group">
           <span className="tag-label">Stages:</span>
@@ -52,7 +52,7 @@ const ResourceCard = ({ resource }) => {
           ))}
         </div>
       </div>
-
+*/}
       <div className="card-footer">
         <div className="next-steps">
           <strong>Next Steps:</strong> {resource.next_steps}

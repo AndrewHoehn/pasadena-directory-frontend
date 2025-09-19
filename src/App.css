@@ -174,12 +174,13 @@ h1, h2 {
 }
 
 .card-image {
-  width: calc(100% - 50px);
+  width: 40%;
   overflow: hidden;
   border-radius: 8px;
   position: relative;
   background-color: #f8f9fa;
   margin: 0 25px 15px 25px;
+  float:left;
 }
 
 .card-image img {
@@ -228,6 +229,7 @@ h1, h2 {
   border-radius: 6px;
   font-size: 0.9rem;
   color: #495057;
+  clear:both;
 }
 
 .eligibility strong {
@@ -244,6 +246,7 @@ h1, h2 {
 .card-footer {
   border-top: 1px solid #e9ecef;
   padding: 15px 25px;
+  clar:both;
 }
 
 .tag-group {
@@ -289,8 +292,12 @@ h1, h2 {
 .card-footer {
   border-top: 1px solid #e9ecef;
   padding-top: 15px;
+  clear:both;
 }
 
+.next-steps {
+  clear:both;
+}
 .next-steps strong {
   color: #2c3e50;
 }
